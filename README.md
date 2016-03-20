@@ -19,3 +19,8 @@ Resource for interview preparation  of data science position
 ##Missing Value##
 1. [Multiple imputation course materials](http://www.stefvanbuuren.nl/mi/Course.html)
 
+
+##NLP##
+1. [NLP Structure](https://www.google.com/search?newwindow=1&espv=2&biw=1280&bih=728&tbm=isch&sa=1&q=nlp+course+structure&oq=nlp+course+structure&gs_l=img.3...204240.205589.0.205729.7.7.0.0.0.0.87.521.7.7.0....0...1c.1.64.img..0.0.0.sc35i1gBnH4#imgrc=akjTNxgIv9YfoM%3A)
+2. [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/)
+
