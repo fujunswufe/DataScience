@@ -14,11 +14,11 @@ Resource for interview preparation  of data science position
     3. Papers
       - [Stochastic Gradient Boosting. J.H. Friedman](https://statweb.stanford.edu/~jhf/ftp/stobst.pdf)
 
-###Feature Selection##
-1. [An introduction to Variable and Feature Selection](http://www.jmlr.org/papers/volume3/guyon03a/guyon03a.pdf)
-
-###Missing Value##
-1. [Multiple imputation course materials](http://www.stefvanbuuren.nl/mi/Course.html)
+  ###Feature Selection##
+  1. [An introduction to Variable and Feature Selection](http://www.jmlr.org/papers/volume3/guyon03a/guyon03a.pdf)
+  
+  ###Missing Value##
+  1. [Multiple imputation course materials](http://www.stefvanbuuren.nl/mi/Course.html)
 
 
 ##NLP##
