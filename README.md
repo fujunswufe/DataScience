@@ -11,7 +11,7 @@ Resource for interview preparation  of data science position
   1. [Slides](http://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf)
   2. [Understanding XGBoost Model on Otto Dataset](https://www.kaggle.com/tqchen/otto-group-product-classification-challenge/understanding-xgboost-model-on-otto-data)
   3. Papers
-    `[Stochastic Gradient Boosting. J.H. Friedman](https://statweb.stanford.edu/~jhf/ftp/stobst.pdf)
+    - [Stochastic Gradient Boosting. J.H. Friedman](https://statweb.stanford.edu/~jhf/ftp/stobst.pdf)
 
 ##Feature Selection##
 1. [An introduction to Variable and Feature Selection](http://www.jmlr.org/papers/volume3/guyon03a/guyon03a.pdf)
