@@ -63,3 +63,35 @@ class Node {
 }
 ```
 
+### 03/28/2016
+1. [Ugly Number](http://www.lintcode.com/en/problem/ugly-number/#)
+    1. check *num <= 0* 
+    2. while loop for 2, 3, 5 separately
+    ```java
+    while (num % 2 == 0) {
+        num = num / 2;
+    }
+    while (num % 3 == 0) {
+        num = num / 3;
+    }
+    while (num % 5 == 0) {
+        num = num / 5;
+    }
+    ```
+2. [Ugly Number II](http://www.lintcode.com/en/problem/ugly-number-ii/)
+    1. The naive approach is to call isUgly for every number until you reach the nth one. Most numbers are not ugly. Try to focus your effort on generating only the ugly ones.
+    2. An ugly number must be multiplied by either 2, 3, or 5 from a smaller ugly number.
+    3. The key is how to maintain the order of the ugly numbers. Try a similar approach of merging from three sorted lists: L1, L2, and L3.
+    4. Assume you have Uk, the kth ugly number. Then Uk+1 must be Min(L1 * 2, L2 * 3, L3 * 5).
+
+
+
+
+
+
+
+
+
+
+
+
