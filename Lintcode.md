@@ -1,10 +1,10 @@
 ## [lintcode](lintcode.com)
 
 ### 03/27/2016
-1. [Rehashing](http://www.lintcode.com/en/problem/rehashing/#)
+1. [Rehashing](http://www.lintcode.com/en/problem/rehashing/#) (__*LinkedList*)
     1. Open Hashing using linkedlist
     2. Rehashing for twice the original array
-2. LRU Cache
+2. [LRU Cache](http://www.lintcode.com/en/problem/lru-cache/#) (__*LinkedList*, __*HashMap*)
     1. Double Linked List to store cache, using one Dummy head and one Dummy Tail
     2. O(1) 从中间拿出一个数，挪到尾巴上
     3. O(1) 的时间，在尾巴上放一个新的数
