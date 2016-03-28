@@ -34,7 +34,9 @@
     }
     ```
     3. Time complexity, each array element add and remove from map once, O(2*n)
-4. Top K Frequent Words
+4. [Top K Frequent Words](http://www.lintcode.com/en/problem/top-k-frequent-words/#) (*HashMap*, *PriorityQueue*)
+    1. PriorityQueue Comparator (notice: do not miss ";" in Comparator)
+    2. lowest count of word on head of PriorityQueue
 
 ######*Summary*
 1. how to write Comparator and use Comparator in PriorityQueue
