@@ -10,7 +10,29 @@
     3. O(1) 的时间，在尾巴上放一个新的数
     4. O(1) 的时间删除最老的节点 when insert a new node and the capacity is full
     5. creating a helper function call "moveToTail"
-3. Longest Consecutive Sequence
+3. [Longest Consecutive Sequence](http://www.lintcode.com/en/problem/longest-consecutive-sequence/) (*HashMap*)
+    1. Using HashMap to store array elements, value is the key
+    2. Iterate Array
+    ```java
+    int max = 1
+    for (int i : num) {
+        int count = 1;
+        int temp = i - 1;
+        while (map.containsKey(temp)) {
+            map.remove(temp);
+            temp--;
+            count++;
+        }
+        temp = i + 1;
+        while (map.containsKey(temp)) {
+            map.remove(temp);
+            temp++;
+            count++;
+        }
+        map.remove(i);
+        max = Math.max(max, count);
+    }
+    ```
 4. Top K Frequent Words
 
 ######*Summary*
