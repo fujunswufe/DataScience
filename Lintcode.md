@@ -4,7 +4,7 @@
 1. Top K Frequent Words
 2. 
 
-*Summary*
+######*Summary*
 1. how to write Comparator and use Comparator in PriorityQueue
 ```java
 PriorityQueue<Node> queue = new PriorityQueue<Node>(NodeComparator)();
