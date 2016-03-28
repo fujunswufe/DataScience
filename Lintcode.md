@@ -7,12 +7,12 @@
 *Summary*
 1. how to write Comparator and use Comparator in PriorityQueue
 ```java
-        Comparator<Node> NodeComparator = new Comparator<Node>() {
-            public int compare (Node left, Node right) {
-                if (left.count != right.count) {
-                    return left.count - right.count;
-                }
-                return right.word.compareTo(left.word);
-            }
-        };
+Comparator<Node> NodeComparator = new Comparator<Node>() {
+    public int compare (Node left, Node right) {
+        if (left.count != right.count) {
+            return left.count - right.count;
+        }
+        return right.word.compareTo(left.word);
+    }
+};
 ```
