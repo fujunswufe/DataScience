@@ -106,6 +106,10 @@ class Node {
         list.add(temp);
     }
     ```
+3. [Merge k Sorted Arrays](http://www.lintcode.com/en/problem/merge-k-sorted-arrays/#) (*Heap*, *Priority Queue*)
+    1. create a new class called _"Element"_ to store row, column and its corresponding value in arrays
+    2. create a priority queue with a new **Comparator** (notice for semicolon after the Comparator)
+    3. each time poll the head of queue and add next arrays element if it has.
 
 
 
