@@ -1,6 +1,6 @@
-##LintCode##
+## LintCode
 
-###03/27/2016###
+### 03/27/2016
 1. [Rehashing](http://www.lintcode.com/en/problem/rehashing/#) (_*LinkedList*_)
     1. Open Hashing using linkedlist
     2. Rehashing for twice the original array
@@ -38,7 +38,7 @@
     1. PriorityQueue Comparator (notice: do not miss ";" in Comparator)
     2. lowest count of word on head of PriorityQueue
 
-######*Summary*#######
+###### *Summary*#######
 1. how to write Comparator and use Comparator in PriorityQueue
 ```java
 PriorityQueue<Node> queue = new PriorityQueue<Node>(NodeComparator)();
