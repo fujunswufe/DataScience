@@ -111,8 +111,11 @@ class Node {
     2. create a priority queue with a new **Comparator** (notice for semicolon after the Comparator)
     3. each time poll the head of queue and add next arrays element if it has.
 
-4. [Merge k Sorted Lists](http://www.lintcode.com/en/problem/merge-k-sorted-lists/#)
-
+4. [Merge k Sorted Lists](http://www.lintcode.com/en/problem/merge-k-sorted-lists/#) (*Priority Queue*, *Divide&Conquer*)
+    1. much similarity with *Merge k Sorted Arrays*
+    1. Using a dummy node 
+    2. writing **a new Comparator** (corner case: one of nodes is null)
+    
 
 
 
