@@ -64,6 +64,7 @@ class Node {
 ```
 
 ### 03/28/2016
+1. **[Java Sorting: Comparator vs Comparable Tutorial](http://www.digizol.com/2008/07/java-sorting-comparator-vs-comparable.html)**
 1. [Ugly Number](http://www.lintcode.com/en/problem/ugly-number/#)
     1. check *num <= 0* 
     2. while loop for 2, 3, 5 separately
