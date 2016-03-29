@@ -12,7 +12,8 @@
     5. creating a helper function call "moveToTail"
 3. [Longest Consecutive Sequence](http://www.lintcode.com/en/problem/longest-consecutive-sequence/) (*HashMap*)
     1. Using HashMap to store array elements, value is the key
-    2. Iterate Array, find left and right elements 
+    2. Time complexity, each array element add and remove from map once, O(2*n)
+    3. Iterate Array, find left and right elements 
     ```java
     int max = 1
     for (int i : num) {
@@ -33,7 +34,6 @@
         max = Math.max(max, count);
     }
     ```
-    3. Time complexity, each array element add and remove from map once, O(2*n)
 4. [Top K Frequent Words](http://www.lintcode.com/en/problem/top-k-frequent-words/#) (*HashMap*, *PriorityQueue*)
     1. PriorityQueue Comparator (notice: do not miss ";" in Comparator)
     2. lowest count of word on head of PriorityQueue
