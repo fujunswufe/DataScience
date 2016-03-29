@@ -87,6 +87,7 @@ class Node {
     4. Assume you have Uk, the kth ugly number. Then Uk+1 must be Min(L1 * 2, L2 * 3, L3 * 5).
     5. Each time update the index of L1, or L2, or L3
     ```java
+    int i2 = 0; int i3 = 0; int i5 = 0;
     while (list.size() < n) {
         int m2 = list.get(i2) * 2;
         int m3 = list.get(i3) * 3;
