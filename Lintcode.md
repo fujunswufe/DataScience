@@ -116,3 +116,11 @@ class Node {
     1. much similarity with *Merge k Sorted Arrays*
     1. Using a dummy node 
     2. writing **a new Comparator** (corner case: one of nodes is null)
+
+###03/29/2016
+1. [Implement Stack](http://www.lintcode.com/en/problem/implement-stack/#)
+2. [Implement Stack by Two Queues](http://www.lintcode.com/en/problem/implement-stack-by-two-queues/)
+3. [Implement Queue by Linked List](http://www.lintcode.com/en/problem/implement-queue-by-linked-list/)
+4. [Implement Queue by Linked List II](http://www.lintcode.com/en/problem/implement-queue-by-linked-list-ii/)
+5. [Hash Function](http://www.lintcode.com/en/problem/hash-function/)
+
