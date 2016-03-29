@@ -41,7 +41,7 @@
 ###### *Summary*#######
 1. how to write Comparator and use Comparator in PriorityQueue
 ```java
-PriorityQueue<Node> queue = new PriorityQueue<Node>(NodeComparator)();
+PriorityQueue<Node> queue = new PriorityQueue<Node>(NodeComparator);
 
 Comparator<Node> NodeComparator = new Comparator<Node>() {
     public int compare (Node left, Node right) {
@@ -102,7 +102,6 @@ class Node {
         if (temp == m5) {
             i5++;
         }
-        
         list.add(temp);
     }
     ```
@@ -115,15 +114,3 @@ class Node {
     1. much similarity with *Merge k Sorted Arrays*
     1. Using a dummy node 
     2. writing **a new Comparator** (corner case: one of nodes is null)
-    
-
-
-
-
-
-
-
-
-
-
-
