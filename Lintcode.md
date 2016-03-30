@@ -126,6 +126,9 @@ class Node {
     2. Two functions, one is *"moveItems()"* and the other is *swapQueues()*
     3. when pop(), pop the last element of q1
 3. [Implement Queue by Linked List](http://www.lintcode.com/en/problem/implement-queue-by-linked-list/)
+    1. Using a java built LinkedList or create a new one
+    2. enqueue: add the element at the end
+    3. dequeue: remove the head
 4. [Implement Queue by Linked List II](http://www.lintcode.com/en/problem/implement-queue-by-linked-list-ii/)
 5. [Hash Function](http://www.lintcode.com/en/problem/hash-function/)
 
