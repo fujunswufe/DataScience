@@ -122,6 +122,9 @@ class Node {
     1. use an ArrayList to implement a stack
     2. the newest element add to tail
 2. [Implement Stack by Two Queues](http://www.lintcode.com/en/problem/implement-stack-by-two-queues/)
+    1. **initialization of a Queue in Java**
+    2. Two functions, one is *"moveItems()"* and the other is *swapQueues()*
+    3. when pop(), pop the last element of q1
 3. [Implement Queue by Linked List](http://www.lintcode.com/en/problem/implement-queue-by-linked-list/)
 4. [Implement Queue by Linked List II](http://www.lintcode.com/en/problem/implement-queue-by-linked-list-ii/)
 5. [Hash Function](http://www.lintcode.com/en/problem/hash-function/)
