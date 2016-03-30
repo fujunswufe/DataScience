@@ -119,6 +119,8 @@ class Node {
 
 ###03/29/2016
 1. [Implement Stack](http://www.lintcode.com/en/problem/implement-stack/#)
+    1. use an ArrayList to implement a stack
+    2. the newest element add to tail
 2. [Implement Stack by Two Queues](http://www.lintcode.com/en/problem/implement-stack-by-two-queues/)
 3. [Implement Queue by Linked List](http://www.lintcode.com/en/problem/implement-queue-by-linked-list/)
 4. [Implement Queue by Linked List II](http://www.lintcode.com/en/problem/implement-queue-by-linked-list-ii/)
