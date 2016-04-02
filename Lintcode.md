@@ -139,11 +139,11 @@ class Node {
     
 ### 04/02/2016
 1. [Hash Function](http://www.lintcode.com/en/problem/hash-function/)
-    ```java
-    long ans = 0;
-    for(int i = 0; i < key.length;i++) {
-        ans = (ans * 33 + (int)(key[i])) % HASH_SIZE; 
-    } // a little confused
-    ```
+```java
+long ans = 0;
+for(int i = 0; i < key.length;i++) {
+    ans = (ans * 33 + (int)(key[i])) % HASH_SIZE; 
+} // a little confused
+```
 
 
