@@ -136,6 +136,7 @@ class Node {
     head.next = tail;
     tail.prev = head;
     ```
+    
 ### 04/02/2016
 1. [Hash Function](http://www.lintcode.com/en/problem/hash-function/)
     ```java
