@@ -130,5 +130,11 @@ class Node {
     2. enqueue: add the element at the end
     3. dequeue: remove the head
 4. [Implement Queue by Linked List II](http://www.lintcode.com/en/problem/implement-queue-by-linked-list-ii/)
+    1. double linkedlist, using one dummy head and one dummy tail
+    2. In initialization
+    ```java
+    head.next = tail;
+    tail.prev = head;
+    ```
 5. [Hash Function](http://www.lintcode.com/en/problem/hash-function/)
 
