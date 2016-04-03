@@ -175,6 +175,6 @@ class Node {
 4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
 5. [N-Queens](http://www.lintcode.com/en/problem/n-queens/)
 
-Summary
+*Summary*
 1. Iterator, [Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)
 
