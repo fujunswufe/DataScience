@@ -139,6 +139,7 @@ class Node {
     
 ### 04/02/2016
 1. [Hash Function](http://www.lintcode.com/en/problem/hash-function/)
+    1. answer
     ```java
     long ans = 0;
     for(int i = 0; i < key.length;i++) {
