@@ -145,5 +145,8 @@ for(int i = 0; i < key.length;i++) {
     ans = (ans * 33 + (int)(key[i])) % HASH_SIZE; 
 } // a little confused
 ```
+2. [Stack Sorting](http://www.lintcode.com/en/problem/stack-sorting/)
+    1. additional 单调递减栈
+    
 
 
