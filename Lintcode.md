@@ -138,7 +138,7 @@ class Node {
     ```
     
 ### 04/02/2016
-1. [Hash Function](http://www.lintcode.com/en/problem/hash-function/)
+1. [Hash Function](http://www.lintcode.com/en/problem/hash-function/) (*Hash*)
     1. answer
     ```java
     long ans = 0;
@@ -146,9 +146,9 @@ class Node {
         ans = (ans * 33 + (int)(key[i])) % HASH_SIZE; 
     } // a little confused
     ```
-2. [Stack Sorting](http://www.lintcode.com/en/problem/stack-sorting/)
+2. [Stack Sorting](http://www.lintcode.com/en/problem/stack-sorting/) (*Stack*)
     1. additional 单调递减栈
-3. [Heapify](http://www.lintcode.com/en/problem/heapify/#)  
+3. [Heapify](http://www.lintcode.com/en/problem/heapify/#) (*Binary Heap*)
     1. [Summary](http://www.cnblogs.com/EdwardLiu/p/4279641.html) on this problem
     2. [Heaps & Other Trees](https://www.cs.cmu.edu/~tcortina/15-121sp10/Unit06B.pdf) and [Heaps](http://courses.cs.vt.edu/cs2604/spring02/Notes/C07.Heaps.pdf)
     3. [Heapify Demo](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/DemoHeapify.pdf) and [Java implementation on Binary Heap](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html)
@@ -157,7 +157,7 @@ class Node {
         * swap the current internal node with its smaller child, if necessary
         * then follow the swapped node down
         * continue until all internal nodes are done
-4. [Animal Shelter](http://www.lintcode.com/en/problem/animal-shelter/#)
+4. [Animal Shelter](http://www.lintcode.com/en/problem/animal-shelter/#) (*LinkedList*)
     1. a new class called "Animal"
     2. Use two LinkedList to store *cats* and *dogs* separately 
     3. Use a global variable *index* to store the time
