@@ -151,7 +151,7 @@ class Node {
 3. [Heapify](http://www.lintcode.com/en/problem/heapify/#)  
     1. [Summary](http://www.cnblogs.com/EdwardLiu/p/4279641.html) on this problem
     2. [Heaps & Other Trees](https://www.cs.cmu.edu/~tcortina/15-121sp10/Unit06B.pdf) and [Heaps](http://courses.cs.vt.edu/cs2604/spring02/Notes/C07.Heaps.pdf)
-    3. [Heapify Demo](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/DemoHeapify.pdf)
+    3. [Heapify Demo](https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/DemoHeapify.pdf) and [Java implementation on Binary Heap](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html)
     4. Given an array of N values, a heap containing those values can be built by simply “sifting” each internal node down to its proper location
         * start with the last internal node
         * swap the current internal node with its smaller child, if necessary
