@@ -157,6 +157,8 @@ class Node {
         * swap the current internal node with its smaller child, if necessary
         * then follow the swapped node down
         * continue until all internal nodes are done
-    
-
+4. [Animal Shelter](http://www.lintcode.com/en/problem/animal-shelter/#)
+    1. a new class called "Animal"
+    2. Use two LinkedList to store *cats* and *dogs* separately 
+    3. Use a global variable *index* to store the time
 
