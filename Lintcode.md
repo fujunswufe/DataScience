@@ -62,6 +62,7 @@ class Node {
     }
 }
 ```
+2. HashTable is thread safe. When two functionals share the same variable, visit a HashTable at the same time, this HashTable has a lock.
 
 ### 03/28/2016
 1. **[Java Sorting: Comparator vs Comparable Tutorial](http://www.digizol.com/2008/07/java-sorting-comparator-vs-comparable.html)**
