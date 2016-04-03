@@ -148,6 +148,8 @@ class Node {
     ```
 2. [Stack Sorting](http://www.lintcode.com/en/problem/stack-sorting/)
     1. additional 单调递减栈
+3. [Heapify](http://www.lintcode.com/en/problem/heapify/#)  
+    1. [Summary](http://www.cnblogs.com/EdwardLiu/p/4279641.html)
     
 
 
