@@ -166,5 +166,12 @@ class Node {
     1. Heap can be implemented using _*complete binary tree*_. Suppose there are N nodes in this binary tree.
     2. Levels: Log2(N+1). Delete root or add a new node: time complexity O(logN)
     3. Using an array size n. Only have *(n / 2 - 1)* internal nodes. The children of *i* is (2\*i + 1) and (2\*i + 2) and parent of *i* is (i/2 - 1). (Notice: all integer division)
-        
+
+### 04/03/2016
+1. [Clone Graph](http://www.lintcode.com/en/problem/clone-graph/#) (*DFS*)
+2. [Topological Sorting](http://www.lintcode.com/en/problem/topological-sorting/)
+    1. Definition of Topological Sorting: 
+3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
+4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
+5. [N-Queens](http://www.lintcode.com/en/problem/n-queens/)
 
