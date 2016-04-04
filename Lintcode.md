@@ -174,9 +174,11 @@ class Node {
     3. node -> graph (BFS)
     4. Copy nodes, using a **_HashMap_**. The HashMap stores the mapping relationship between the original node and new node. It can remove and check duplicated nodes. And using a **_Queue_** to store the original nodes, and this queue can be implemented by a _ArrayList_.
     5. Copy edges, iterate the _Queue_ for orignal nodes, copy edges for new nodes
-    
-2. [Topological Sorting](http://www.lintcode.com/en/problem/topological-sorting/)
+2. [Topological Sorting](http://www.lintcode.com/en/problem/topological-sorting/) (_BFS_, _HashMap_, _Queue_)
     1. Definition of Topological Sorting: 
+    2. Iterate the graph, use **HashMap** to store internal nodes and its priority(how many times this node is in neighbors)
+    3. Iterate the graph, using HashMap to find nodes with no nodes direct to it, add to a **Queue**
+    4. Pop the queue and changes the priority on HashMap. And add qualified nodes to queue
 3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
 4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
 5. [N-Queens](http://www.lintcode.com/en/problem/n-queens/)
