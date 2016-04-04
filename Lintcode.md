@@ -171,7 +171,10 @@ class Node {
 1. [Clone Graph](http://www.lintcode.com/en/problem/clone-graph/#) (*DFS*)
     1. [BFS Template in Binary Tree](http://www.jiuzhang.com/solutions/bfs-template/)
     2. 能用BFS的就用BFS，能不递归就尽量不递归
-    3. [Flood fill](https://zh.wikipedia.org/wiki/Flood_fill): using BFS
+    3. node -> graph (BFS)
+    4. Copy nodes, using a **_HashMap_**. The HashMap stores the mapping relationship between the original node and new node. It can remove and check duplicated nodes. And using a **_Queue_** to store the original nodes, and this queue can be implemented by a _ArrayList_.
+    5. Copy edges, iterate the _Queue_ for orignal nodes, copy edges for new nodes
+    
 2. [Topological Sorting](http://www.lintcode.com/en/problem/topological-sorting/)
     1. Definition of Topological Sorting: 
 3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
@@ -181,4 +184,5 @@ class Node {
 ######*Summary*
 1. Iterator, [Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)
 2. 树是一种特殊的图，N个点，N - 1 条边，并且把所有的点都连接起来
+3. [Flood fill](https://zh.wikipedia.org/wiki/Flood_fill): using BFS
 
