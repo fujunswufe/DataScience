@@ -180,6 +180,7 @@ class Node {
     3. Iterate the graph, using HashMap to find nodes with no nodes direct to it, add to a **Queue**
     4. Pop the queue and changes the priority on HashMap. And add qualified nodes to queue
 3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
+    1. prepare non-recursion subset
 4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
 5. [N-Queens](http://www.lintcode.com/en/problem/n-queens/)
 
@@ -187,4 +188,6 @@ class Node {
 1. Iterator, [Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)
 2. 树是一种特殊的图，N个点，N - 1 条边，并且把所有的点都连接起来
 3. [Flood fill](https://zh.wikipedia.org/wiki/Flood_fill): using BFS
+4. Search: DFS + BFS
+5. DFS : recursion 
 
