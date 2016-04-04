@@ -179,10 +179,6 @@ class Node {
     2. Iterate the graph, use **HashMap** to store internal nodes and its priority(how many times this node is in neighbors)
     3. Iterate the graph, using HashMap to find nodes with no nodes direct to it, add to a **Queue**
     4. Pop the queue and changes the priority on HashMap. And add qualified nodes to queue
-3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
-    1. prepare non-recursion subset
-4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
-5. [N-Queens](http://www.lintcode.com/en/problem/n-queens/)
 
 ######*Summary*
 1. Iterator, [Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)
@@ -191,3 +187,10 @@ class Node {
 4. Search: DFS + BFS
 5. DFS : recursion 
 
+### 04/04/2016
+1. [Subsets](http://www.lintcode.com/en/problem/subsets/)
+2. [Subsets II](http://www.lintcode.com/en/problem/subsets-ii/)
+3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
+    1. prepare non-recursion subset
+4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
+5. [N-Queens](http://www.lintcode.com/en/problem/n-queens/)
