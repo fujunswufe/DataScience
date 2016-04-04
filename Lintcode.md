@@ -168,7 +168,7 @@ class Node {
     3. Using an array size n. Only have *(n / 2 - 1)* internal nodes. The children of *i* is (2\*i + 1) and (2\*i + 2) and parent of *i* is (i/2 - 1). (Notice: all integer division)
 
 ### 04/03/2016
-1. [Clone Graph](http://www.lintcode.com/en/problem/clone-graph/#) (*DFS*)
+1. [Clone Graph](http://www.lintcode.com/en/problem/clone-graph/#) (_BFS_, _HashMap_, _Queue_)
     1. [BFS Template in Binary Tree](http://www.jiuzhang.com/solutions/bfs-template/)
     2. 能用BFS的就用BFS，能不递归就尽量不递归
     3. node -> graph (BFS)
