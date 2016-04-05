@@ -218,6 +218,7 @@ class Node {
     2. Use a boolean[] array to store whether each element has been visited or not
     3. If we haved changed something before recursion, we have to return to the original after recursion
 5. **_[N-Queens](http://www.lintcode.com/en/problem/n-queens/)_**
+    1. 
 6. [N-Queens II](http://www.lintcode.com/en/problem/n-queens/#)
 
 ### 04/05/2016
