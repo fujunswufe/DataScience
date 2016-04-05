@@ -188,8 +188,18 @@ class Node {
 5. DFS : recursion 
 
 ### 04/04/2016
-1. [Subsets](http://www.lintcode.com/en/problem/subsets/)
+1. [Subsets](http://www.lintcode.com/en/problem/subsets/) (_DFS_, _BackTrack_)
+    1. Use recursion. Actually a DFS search. Draw a **Search Tree**
+    2. Use an index _pos_ to transfer the search position.
+    3. Could write a non-recursion method
 2. [Subsets II](http://www.lintcode.com/en/problem/subsets-ii/)
+    1. Already the same with [Subsets](http://www.lintcode.com/en/problem/subsets/). However, we have to check duplicate subset situations.
+    2. Suppose this is an array {1, 2(1), 2(2)}. There are two duplicate subsets for {1, 2(1)} and {1, 2(2)}. We only want the first one. 
+    ```java
+    if (i != pos && nums[i] == nums[i - 1]) { // 取带重复的数，按顺序取
+        continue; // store elements in order. We cannot store 2(2) when not store 2(1) first
+    }
+    ```
 3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
     1. prepare non-recursion subset
 4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
