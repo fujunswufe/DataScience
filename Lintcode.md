@@ -194,7 +194,7 @@ class Node {
     3. Could write a non-recursion method
 2. [Subsets II](http://www.lintcode.com/en/problem/subsets-ii/)
     1. Already the same with [Subsets](http://www.lintcode.com/en/problem/subsets/). However, we have to check duplicate subset situations.
-    2. Suppose this is an array {1, 2(1), 2(2)}. There are two duplicate subsets for {1, 2(1)} and {1, 2(2)}. We only want the first one. 
+    2. _Checking Conditions_. Suppose this is an array {1, 2(1), 2(2)}. There are two duplicate subsets for {1, 2(1)} and {1, 2(2)}. We only want the first one. 
     ```java
     if (i != pos && nums[i] == nums[i - 1]) { // 取带重复的数，按顺序取
         continue; // store elements in order. We cannot store 2(2) when not store 2(1) first
