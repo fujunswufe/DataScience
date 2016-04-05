@@ -192,7 +192,7 @@ class Node {
     1. Use recursion. Actually a DFS search. Draw a **Search Tree**
     2. Use an index _pos_ to transfer the search position.
     3. Could write a non-recursion method
-2. [Subsets II](http://www.lintcode.com/en/problem/subsets-ii/)
+2. [Subsets II](http://www.lintcode.com/en/problem/subsets-ii/) (_DFS_, _BackTrack_)
     1. Already the same with [Subsets](http://www.lintcode.com/en/problem/subsets/). However, we have to check duplicate subset situations.
     2. _Checking Conditions_. Suppose this is an array {1, 2(1), 2(2)}. There are two duplicate subsets for {1, 2(1)} and {1, 2(2)}. We only want the first one. 
     ```java
@@ -200,9 +200,21 @@ class Node {
         continue; // store elements in order. We cannot store 2(2) when not store 2(1) first
     }
     ```
-3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
-    1. prepare non-recursion subset
-4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
+3. [Permutations](http://www.lintcode.com/en/problem/permutations/) (_DFS_, _BackTrack_)
+    1. Prepare for a non-recursive solution
+    2. Almost same as [Subsets](http://www.lintcode.com/en/problem/subsets/)
+    3. Two checking conditions. One is if the _size of list_ equals to the _length of array_ num, and the other is whether list.contains(nums[i])
+    ```java
+    if (list.size() == nums.length) {
+        result.add(new ArrayList<Integer>(list));
+        return;
+    }
+    if (list.contains(nums[i])) {
+        continue;
+    }
+    ```
+    
+4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/) (_DFS_, _BackTrack_)
 5. **_[N-Queens](http://www.lintcode.com/en/problem/n-queens/)_**
 6. [N-Queens II](http://www.lintcode.com/en/problem/n-queens/#)
 
