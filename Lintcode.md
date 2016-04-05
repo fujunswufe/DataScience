@@ -182,7 +182,7 @@ class Node {
 
 ######*Summary*
 1. Iterator, [Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/#)
-2. 树是一种特殊的图，N个点，N - 1 条边，并且把所有的点都连接起来
+2. Tree is a kind of special graph. \# N nodes and \# N - 1 edges and connected all nodes. 
 3. [Flood fill](https://zh.wikipedia.org/wiki/Flood_fill): using BFS
 4. Search: DFS + BFS
 5. DFS : recursion 
@@ -196,7 +196,7 @@ class Node {
     1. Already the same with [Subsets](http://www.lintcode.com/en/problem/subsets/). However, we have to check duplicate subset situations.
     2. _Checking Conditions_. Suppose this is an array {1, 2(1), 2(2)}. There are two duplicate subsets for {1, 2(1)} and {1, 2(2)}. We only want the first one. 
     ```java
-    if (i != pos && nums[i] == nums[i - 1]) { // 取带重复的数，按顺序取
+    if (i != pos && nums[i] == nums[i - 1]) { // take the duplicate numbers in order
         continue; // store elements in order. We cannot store 2(2) when not store 2(1) first
     }
     ```
