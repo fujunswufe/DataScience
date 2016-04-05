@@ -193,4 +193,12 @@ class Node {
 3. [Permutations](http://www.lintcode.com/en/problem/permutations/)
     1. prepare non-recursion subset
 4. [Permutations II](http://www.lintcode.com/en/problem/permutations-ii/)
-5. [N-Queens](http://www.lintcode.com/en/problem/n-queens/)
+5. **_[N-Queens](http://www.lintcode.com/en/problem/n-queens/)_**
+6. [N-Queens II](http://www.lintcode.com/en/problem/n-queens/#)
+
+### 04/05/2016
+7. [Palindrome Partitioning](http://www.lintcode.com/en/problem/palindrome-partitioning/)
+8. [Combination Sum](http://www.lintcode.com/en/problem/combination-sum/#)
+9. [Combination Sum II](http://www.lintcode.com/en/problem/combination-sum-ii/)
+
+
