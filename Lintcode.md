@@ -217,11 +217,17 @@ class Node {
     1. Same as [Permutations](http://www.lintcode.com/en/problem/permutations/) 
     2. Use a boolean[] array to store whether each element has been visited or not
     3. If we haved changed something before recursion, we have to return to the original after recursion
-5. **_[N-Queens](http://www.lintcode.com/en/problem/n-queens/)_**
-    1. 
-6. [N-Queens II](http://www.lintcode.com/en/problem/n-queens/#)
+
 
 ### 04/05/2016
+1. **_[N-Queens](http://www.lintcode.com/en/problem/n-queens/)_** (_DFS_)
+    1. Use _recursion_ and _depth first search_
+    2. Use an _ArrayList_ to store the column position, and the index is row position
+    3. _isValid_ function. check if same column, top-left-to-bottom-right diagonal and top-right-to-bottom-left diagonal
+2. [N-Queens II](http://www.lintcode.com/en/problem/n-queens/#) (_DFS_)
+    1. First, try to use dynamic programming. However, we canot not find recursion function among n, n - 1 and n - 2. Could only use search. 
+
+### 04/06/2016
 7. [Palindrome Partitioning](http://www.lintcode.com/en/problem/palindrome-partitioning/)
 8. [Combination Sum](http://www.lintcode.com/en/problem/combination-sum/#)
 9. [Combination Sum II](http://www.lintcode.com/en/problem/combination-sum-ii/)
