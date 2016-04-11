@@ -28,7 +28,10 @@
         5. distinct([numTasks]))
     2. Actions: get results out of spark
         1. reduce(func)	
-        2. 
+        2. take(n)	
+        3. collect()
+        4. takeOrdered(n,key=func)	
+    3. spark also support **Key-Value pair** RDDs
 6. Shared Variables
     1. Broadcast Variables: read-only, sent to each worker once and cached on workers. Actions: each task’s update to accumulator is applied only once	
     2. Accumulators: write-only, only the driver can read accumulator's value.
