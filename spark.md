@@ -16,11 +16,21 @@
         * construct from existing python collections(list)
         * transforming from an existing RDD
         * read from HDFS or other storage system
-5. RDDs
-    1. Transformation
-    2. Actions
+5. RDDs: we can cache RDDs for later use
+    1. Transformation: lazy evaluation which means that transformations are only executed when actions are called
+        1. Key-Value Transformation
+            * reduceByKey(func)
+            * sortByKey()
+            * groupByKey()
+        2. map(func)
+        3. filter(func)
+        4. flatMap(func)
+        5. distinct([numTasks]))
+    2. Actions: get results out of spark
+        1. reduce(func)	
+        2. 
 6. Shared Variables
-    1. Broadcast Variables: read-only, sent to each worker once and cached on workers
+    1. Broadcast Variables: read-only, sent to each worker once and cached on workers. Actions: each task’s update to accumulator is applied only once	
     2. Accumulators: write-only, only the driver can read accumulator's value.
 
 ######Functions
