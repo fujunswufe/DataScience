@@ -18,8 +18,10 @@
         * read from HDFS or other storage system
 5. RDDs
     1. Transformation
-    
     2. Actions
+6. Shared Variables
+    1. Broadcast Variables: read-only, sent to each worker once and cached on workers
+    2. Accumulators: write-only, only the driver can read accumulator's value.
 
 ######Functions
 1. Higher Order Functions
@@ -29,3 +31,6 @@
         1. pass functions as arguments to other functions
         2. return functions as values from other functions
         3. assign functions as variables and store them into data structure
+2. An [anonymous function](https://en.wikipedia.org/wiki/Closure_(computer_programming)#Anonymous_functions) is a function literal without a name, while a closure is an instance of a function, a value, whose non-local variables have been bound either to values or to storage locations 
+######Closure
+3. **[Closure](https://en.wikipedia.org/wiki/Closure_(computer_programming)#First-class_functions)**: Operationally, a closure is a record storing a function together with an environment: a mapping associating each free variable of the function (variables that are used locally, but defined in an enclosing scope) with the value or storage location to which the name was bound when the closure was created
