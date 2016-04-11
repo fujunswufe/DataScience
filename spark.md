@@ -24,3 +24,8 @@
 ######Functions
 1. Higher Order Functions
     1. The function name is a variable pointing to the function iteself.
+    2. passing functions as arguments to other functions
+    3. **[First-class Function](https://en.wikipedia.org/wiki/First-class_function)**: treat functions as first-class citizens. 
+        1. pass functions as arguments to other functions
+        2. return functions as values from other functions
+        3. assign functions as variables and store them into data structure
