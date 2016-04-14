@@ -52,3 +52,10 @@
 ####[A Deeper Understanding of Spark Internals](https://spark-summit.org/2014/talk/a-deeper-understanding-of-spark-internals)
 1. Acutally, spark is the optimization of data stream. 
 2. The performance is about (computing time + shuffle time + dispatch time) / \# of Parallelism
+
+
+####Resources
+1. [Useful talks on Spark Summit](https://spark-summit.org/)
+2. [Big data and Apache Spark related talks](https://www.brighttalk.com)
+3. [A Scala Tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
+4. [ScalaByExample](http://www.scala-lang.org/docu/files/ScalaByExample.pdf)
