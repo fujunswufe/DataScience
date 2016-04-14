@@ -47,3 +47,8 @@
 2. An [anonymous function](https://en.wikipedia.org/wiki/Closure_(computer_programming)#Anonymous_functions) is a function literal without a name, while a closure is an instance of a function, a value, whose non-local variables have been bound either to values or to storage locations 
 ######Closure
 3. **[Closure](https://en.wikipedia.org/wiki/Closure_(computer_programming)#First-class_functions)**: Operationally, a closure is a record storing a function together with an environment: a mapping associating each free variable of the function (variables that are used locally, but defined in an enclosing scope) with the value or storage location to which the name was bound when the closure was created
+
+###04/13/2016 
+####[A Deeper Understanding of Spark Internals](https://spark-summit.org/2014/talk/a-deeper-understanding-of-spark-internals)
+1. Acutally, spark is the optimization of data stream. 
+2. The performance is about (computing time + shuffle time + dispatch time) / \# of Parallelism
