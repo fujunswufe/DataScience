@@ -53,9 +53,13 @@
 ####[A Deeper Understanding of Spark Internals](https://spark-summit.org/2014/talk/a-deeper-understanding-of-spark-internals)
 1. Acutally, spark is the optimization of data stream. 
 2. The performance is about (computing time + shuffle time + dispatch time) / \# of Parallelism
-3. 
+3. Execution model:
+    * Create **DAG of RDDs** to represent computation, which is Spark _transformations_ and _actions_.
+    * **Create logical execution plan for DAG**. Pipeline as much as possible and Split into "stages" based on need to reorganize data
+    * Schedule and execute individual tasks. _Execute all tasks within a stage before moving on_
 4. Notice:
     * Enough partitions for concurrency
     * **Minimize memory consumptions**, for example avoiding use groupByKey() and sortByKey(). A single key-value pair may not fit into memory.
     * Minimize data shuffle
     * Know the standard library
+5. **Dive into Spark data stream flow**.
