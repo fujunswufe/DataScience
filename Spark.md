@@ -17,22 +17,34 @@
         * transforming from an existing RDD
         * read from HDFS or other storage system
 5. RDDs: we can cache RDDs for later use
-    1. Transformation: lazy evaluation which means that transformations are only executed when actions are called
+    1. **Transformation**: lazy evaluation which means that transformations are only executed when actions are called
         1. Key-Value Transformation
             * reduceByKey(func)
             * sortByKey()
             * groupByKey()
         2. map(func)
-        3. filter(func)
-        4. flatMap(func)
+        3. flatMap(func)
+        4. filter(func)
         5. distinct([numTasks]))
         6. mapValues(func)
-    2. Actions: get results out of spark
-        1. reduce(func)	
-        2. take(n)	
-        3. collect()
-        4. takeOrdered(n,key=func)	
-    3. spark also support **Key-Value pair** RDDs
+        7.  mapPartitions()
+        8.  mapPartitionsWithIndex()
+    2. **Actions**: get results out of spark
+        1. first()
+        2. take(n)
+        3. takeSample()
+        4. takeOrdered(n, key = func)
+        5. collect()
+        6. count()
+        7. countByValue()
+        8. reduce(func)
+        9. top()
+    3. **Cache**: cache RDD in memory for future reuse
+        * cache()
+        * unpersist()
+        * id()
+        * setName()
+    4. spark also support **Key-Value pair** RDDs
 6. Shared Variables
     1. Broadcast Variables: read-only, sent to each worker once and cached on workers. Actions: each task’s update to accumulator is applied only once	
     2. Accumulators: write-only, only the driver can read accumulator's value.
