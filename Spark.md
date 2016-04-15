@@ -26,6 +26,7 @@
         3. filter(func)
         4. flatMap(func)
         5. distinct([numTasks]))
+        6. mapValues(func)
     2. Actions: get results out of spark
         1. reduce(func)	
         2. take(n)	
