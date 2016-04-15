@@ -53,3 +53,9 @@
 ####[A Deeper Understanding of Spark Internals](https://spark-summit.org/2014/talk/a-deeper-understanding-of-spark-internals)
 1. Acutally, spark is the optimization of data stream. 
 2. The performance is about (computing time + shuffle time + dispatch time) / \# of Parallelism
+3. 
+4. Notice:
+    * Enough partitions for concurrency
+    * **Minimize memory consumptions**, for example avoiding use groupByKey() and sortByKey(). A single key-value pair may not fit into memory.
+    * Minimize data shuffle
+    * Know the standard library
