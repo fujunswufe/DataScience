@@ -12,6 +12,8 @@
 
 ###[Spark Summit](https://spark-summit.org/)###
 1. [East 2016](https://spark-summit.org/east-2016/schedule/)
+   * [Generalized Linear Models in Spark MLlib and SparkR](https://spark-summit.org/east-2016/events/generalized-linear-models-in-spark-mllib-and-sparkr/)
+   * [Time Series Analysis with Spark](https://spark-summit.org/east-2016/events/time-series-analysis-with-spark/) (_recommend_)
 2. [2015](https://spark-summit.org/2015/)
    * [Building, Debugging, and Tuning Spark Machine Learning Pipelines](https://spark-summit.org/2015/events/practical-machine-learning-pipelines-with-mllib-2/)
    * [Building Large Scale Machine Learning Applications with Pipelines](https://spark-summit.org/2015/events/building-large-scale-machine-learning-applications-with-pipelines/) (_recommend_)
