@@ -9,6 +9,7 @@
     * [Quickstart for sample applications](https://docs.cloud.databricks.com/docs/latest/sample_applications/index.html#Introduction%20(Readme).html)
     * [Course material for "Introduction to Big Data with Apache Spark"](https://docs.cloud.databricks.com/docs/latest/courses/index.html#Introduction%20to%20Big%20Data%20with%20Apache%20Spark%20(CS100-1x)/Introduction%20(README).html)  (_recommend_)
     * [Databricks Guide](https://docs.cloud.databricks.com/docs/latest/databricks_guide/index.html#00%20Welcome%20to%20Databricks.html)
+2. [Webinars](https://databricks.com/resources/webinars?utm_campaign=Webinar&utm_source=hs_email&utm_medium=email&utm_content=27719892&_hsenc=p2ANqtz-9mXhVB-vSqvF23aY-A8DbviyILcm_BR9cX_kshXlWDDxryz5EATAh8slbckCkM0Sq7UpDCdJh9r28BH8_1yYWM4i50oQ&_hsmi=27719892)
 
 ###[Spark Summit](https://spark-summit.org/)###
 1. [East 2016](https://spark-summit.org/east-2016/schedule/)
