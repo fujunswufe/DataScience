@@ -3,6 +3,7 @@
 ######Lecture 4 Spark Essentials######
 1. Iterative algorithms/jobs involve lots of disk I/O for each repetition. Spark keeps data in memory. 
 2. A spark program runs on two programs, _a driver program_ and _a workers program_.
+
 3. **SparkContext**
     1. ipython and program must use a constructor to create a new **SparkContext**
     2. Use SparkContext to create RDDs
@@ -20,32 +21,37 @@
         * construct from existing python collections(list)
         * transforming from an existing RDD
         * read from HDFS or other storage system
+
 5. RDDs: we can cache RDDs for later use
     1. **Transformation**: lazy evaluation which means that transformations are only executed when actions are called
         1. Key-Value Transformation
-            * reduceByKey(func)
+            * reduceByKey(func): gathers together pairs that have the same key and applies a function to two associated values at a time. Combine output with common keys before shuffling data across nodes.
             * sortByKey()
-            * groupByKey()
+            * groupByKey():  Only use groupByKey() if the operation would not benefit from reducing the data before the shuffle occurs.
+            * combineByKey()
+            * foldByKey() 
         2. map(func)
         3. flatMap(func)
         4. filter(func)
         5. distinct([numTasks]))
         6. mapValues(func)
-        7.  mapPartitions()
-        8.  mapPartitionsWithIndex()
+        7. mapPartitions()
+        8. mapPartitionsWithIndex()
     2. **Actions**: get results out of spark
-        1. first()
-        2. take(n)
-        3. takeSample()
-        4. takeOrdered(n, key = func)
-        5. collect()
-        6. count()
-        7. countByValue()
-        8. reduce(func)
-        9. top()
+        * first(): returns the first element of an RDD
+        * take(n): return the first n elements of the RDD
+        * takeSample()
+        * takeOrdered(n, key = func) : returns the first n elements of the RDD, using either their natural order or a custom comparator. (returns the list sorted in ascending order and results is deterministic)
+        * top(): similar to takeOrdered() except that it returns the list in descending order
+        * collect()
+        * count()
+        * countByValue()
+        * reduce(func): take two parameters and return a single value
+        * takeSample(): returns an array with a random sample of elements from the dataset. (_takes in a **withReplacement** argument_)
+        * Note that for the first() and take() actions, the elements that are returned depend on how the RDD is partitioned.
     3. **Cache**: cache RDD in memory for future reuse
         * cache()
-        * unpersist()
+        * unpersist(): inform Spark that you no longer need the RDD in memory
         * id()
         * setName()
     4. spark also support **Key-Value pair** RDDs
