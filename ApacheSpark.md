@@ -18,8 +18,10 @@
 2. [2015](https://spark-summit.org/2015/)
    * [Building, Debugging, and Tuning Spark Machine Learning Pipelines](https://spark-summit.org/2015/events/practical-machine-learning-pipelines-with-mllib-2/)
    * [Building Large Scale Machine Learning Applications with Pipelines](https://spark-summit.org/2015/events/building-large-scale-machine-learning-applications-with-pipelines/) (_recommend_)
-   * [Data Science with Apache Spark (Advanced)](https://spark-summit.org/2015/events/training-data-science-with-apache-spark-advanced/) (_Recommend_ and familiar with Scala first)
+   * [Data Science with Apache Spark (Advanced)](https://spark-summit.org/2015/events/training-data-science-with-apache-spark-advanced/) (familiar with Scala first)
    * [Extending Word2Vec for Performance and Semi-Supervised Learning](https://spark-summit.org/2015/events/extending-word2vec-for-performance-and-semi-supervised-learning/) (_optional_)
+   * [TRAINING: DevOps with Apache Spark Workshop (Advanced)](https://spark-summit.org/2015/events/training-devops-with-apache-spark-workshop-advanced/) (_recommend_)
+   * [Advanced Apache Spark- Sameer Farooqui](https://www.youtube.com/watch?v=7ooZ4S7Ay6Y)
    
 ###[BrightTALK](https://www.brighttalk.com)
 1. [Spark MLlib: From Quick Start to Scikit-Learn](https://www.brighttalk.com/webcast/12891/189409?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic) (_recommend_)
