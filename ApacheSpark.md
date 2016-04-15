@@ -20,3 +20,9 @@
    * [Data Science with Apache Spark (Advanced)](https://spark-summit.org/2015/events/training-data-science-with-apache-spark-advanced/) (_Recommend_ and familiar with Scala first)
    * [Extending Word2Vec for Performance and Semi-Supervised Learning](https://spark-summit.org/2015/events/extending-word2vec-for-performance-and-semi-supervised-learning/) (_optional_)
    
+###[brighttalk](https://www.brighttalk.com)
+1. [Spark MLlib: From Quick Start to Scikit-Learn](https://www.brighttalk.com/webcast/12891/189409?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic) (_recommend_)
+2. [Apache Spark 1.6](https://www.brighttalk.com/webcast/12891/181843)
+3. [GraphFrames: DataFrame-based graphs for Apache Spark](https://www.brighttalk.com/webcast/12891/199003?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic)
+4. [Spark DataFrames: Simple and Fast Analysis of Structured Data](https://www.brighttalk.com/webcast/12891/166495?utm_campaign=knowledge-feed&utm_content=&utm_source=brighttalk-portal&utm_medium=web&utm_term=)
+   
