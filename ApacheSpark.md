@@ -15,6 +15,6 @@
 2. [2015](https://spark-summit.org/2015/)
    * [Building, Debugging, and Tuning Spark Machine Learning Pipelines](https://spark-summit.org/2015/events/practical-machine-learning-pipelines-with-mllib-2/)
    * [Building Large Scale Machine Learning Applications with Pipelines](https://spark-summit.org/2015/events/building-large-scale-machine-learning-applications-with-pipelines/) (_recommend_)
-   * 
+   * [Data Science with Apache Spark (Advanced)](https://spark-summit.org/2015/events/training-data-science-with-apache-spark-advanced/) (_Recommend_ and familiar with Scala first)
    * [Extending Word2Vec for Performance and Semi-Supervised Learning](https://spark-summit.org/2015/events/extending-word2vec-for-performance-and-semi-supervised-learning/) (_optional_)
-   * 
+   
