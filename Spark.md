@@ -7,6 +7,10 @@
     1. ipython and program must use a constructor to create a new **SparkContext**
     2. Use SparkContext to create RDDs
     3. The **master** parameter for a SparkContext determines which type and size of cluster to use
+    4. **sc.parallelize()**: 
+        * first argument: create a new set of input data based on data that is passed in.
+        * second argument: tells Spark how many partitions to break the data into when it stores the data in memory.
+
 4. **Resilient Distributed Datasets**(RDD)
     1. primary abstraction in spark
         * Immutable once constructed
