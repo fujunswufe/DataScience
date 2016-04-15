@@ -29,3 +29,4 @@
 3. [GraphFrames: DataFrame-based graphs for Apache Spark](https://www.brighttalk.com/webcast/12891/199003?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic)
 4. [Spark DataFrames: Simple and Fast Analysis of Structured Data](https://www.brighttalk.com/webcast/12891/166495?utm_campaign=knowledge-feed&utm_content=&utm_source=brighttalk-portal&utm_medium=web&utm_term=) (_recommend_)
 5. [Not Your Father's Database](https://www.brighttalk.com/webcast/12891/196891?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic)
+6. [Building Real-Time Data Pipelines with Spark Streaming, Kafka, and Cassandra](https://www.brighttalk.com/webcast/12641/193223/building-real-time-data-pipelines-with-spark-streaming-kafka-and-cassandra) (_recommend_)
