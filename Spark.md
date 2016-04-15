@@ -37,6 +37,7 @@
         6. mapValues(func)
         7. mapPartitions()
         8. mapPartitionsWithIndex()
+        
     2. **Actions**: get results out of spark
         * first(): returns the first element of an RDD
         * take(n): return the first n elements of the RDD
@@ -49,12 +50,14 @@
         * reduce(func): take two parameters and return a single value
         * takeSample(): returns an array with a random sample of elements from the dataset. (_takes in a **withReplacement** argument_)
         * Note that for the first() and take() actions, the elements that are returned depend on how the RDD is partitioned.
+        * 
     3. **Cache**: cache RDD in memory for future reuse
         * cache()
         * unpersist(): inform Spark that you no longer need the RDD in memory
         * id()
         * setName()
     4. spark also support **Key-Value pair** RDDs
+    
 6. Shared Variables
     1. Broadcast Variables: read-only, sent to each worker once and cached on workers. Actions: each task’s update to accumulator is applied only once	
     2. Accumulators: write-only, only the driver can read accumulator's value.
