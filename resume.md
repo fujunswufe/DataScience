@@ -14,3 +14,5 @@
 4. [Dates, Time-Series](https://spark-summit.org/east-2016/events/time-series-analysis-with-spark/)
 
 5. [What is the difference between categorical, ordinal and interval variables?](http://www.ats.ucla.edu/stat/mult_pkg/whatstat/nominal_ordinal_interval.htm)
+
+6. [kaggle Ensemble Guide](http://mlwave.com/kaggle-ensembling-guide/)
