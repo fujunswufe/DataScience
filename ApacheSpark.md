@@ -16,12 +16,12 @@
    * [Advanced Apache Spark- Sameer Farooqui](https://www.youtube.com/watch?v=7ooZ4S7Ay6Y)
    
 ###[BrightTALK](https://www.brighttalk.com)
-1. [Spark MLlib: From Quick Start to Scikit-Learn](https://www.brighttalk.com/webcast/12891/189409?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic) (_recommend_)
-2. [Apache Spark 1.6](https://www.brighttalk.com/webcast/12891/181843)
-3. [GraphFrames: DataFrame-based graphs for Apache Spark](https://www.brighttalk.com/webcast/12891/199003?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic)
-4. [Spark DataFrames: Simple and Fast Analysis of Structured Data](https://www.brighttalk.com/webcast/12891/166495?utm_campaign=knowledge-feed&utm_content=&utm_source=brighttalk-portal&utm_medium=web&utm_term=) (_recommend_)
-5. [Not Your Father's Database](https://www.brighttalk.com/webcast/12891/196891?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic)
-6. [Building Real-Time Data Pipelines with Spark Streaming, Kafka, and Cassandra](https://www.brighttalk.com/webcast/12641/193223/building-real-time-data-pipelines-with-spark-streaming-kafka-and-cassandra) (_recommend_)
+1. [Spark MLlib: From Quick Start to Scikit-Learn](https://www.brighttalk.com/webcast/12891/189409?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic) (**recommend**)
+2. **[Spark DataFrames: Simple and Fast Analysis of Structured Data](https://www.brighttalk.com/webcast/12891/166495?utm_campaign=knowledge-feed&utm_content=&utm_source=brighttalk-portal&utm_medium=web&utm_term=)** (**recommend**)
+3. **[Building Real-Time Data Pipelines with Spark Streaming, Kafka, and Cassandra](https://www.brighttalk.com/webcast/12641/193223/building-real-time-data-pipelines-with-spark-streaming-kafka-and-cassandra)** (**recommend**)
+4. [Apache Spark 1.6](https://www.brighttalk.com/webcast/12891/181843)
+5. [GraphFrames: DataFrame-based graphs for Apache Spark](https://www.brighttalk.com/webcast/12891/199003?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic)
+6. [Not Your Father's Database](https://www.brighttalk.com/webcast/12891/196891?autoclick=true&utm_source=brighttalk-recommend&utm_campaign=followup&utm_medium=email&utm_content=organic)
 
 ###[DataBricks](https://databricks.com/)###
 1. [Introducing Databricks Community Edition](https://databricks.com/blog/2016/02/17/introducing-databricks-community-edition-apache-spark-for-all.html)
