@@ -9,7 +9,7 @@
    * **[Time Series Analysis with Spark](https://spark-summit.org/east-2016/events/time-series-analysis-with-spark/)** (**recommend**)
 2. [2015](https://spark-summit.org/2015/)
    * [Building, Debugging, and Tuning Spark Machine Learning Pipelines](https://spark-summit.org/2015/events/practical-machine-learning-pipelines-with-mllib-2/)
-   * [Building Large Scale Machine Learning Applications with Pipelines](https://spark-summit.org/2015/events/building-large-scale-machine-learning-applications-with-pipelines/) (_recommend_)
+   * **[Building Large Scale Machine Learning Applications with Pipelines](https://spark-summit.org/2015/events/building-large-scale-machine-learning-applications-with-pipelines/)** (**recommend**)
    * [Data Science with Apache Spark (Advanced)](https://spark-summit.org/2015/events/training-data-science-with-apache-spark-advanced/) (familiar with Scala first)
    * [Extending Word2Vec for Performance and Semi-Supervised Learning](https://spark-summit.org/2015/events/extending-word2vec-for-performance-and-semi-supervised-learning/) (_optional_)
    * [TRAINING: DevOps with Apache Spark Workshop (Advanced)](https://spark-summit.org/2015/events/training-devops-with-apache-spark-workshop-advanced/)
