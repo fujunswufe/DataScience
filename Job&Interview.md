@@ -16,3 +16,12 @@
 5. [What is the difference between categorical, ordinal and interval variables?](http://www.ats.ucla.edu/stat/mult_pkg/whatstat/nominal_ordinal_interval.htm)
 
 6. [kaggle Ensemble Guide](http://mlwave.com/kaggle-ensembling-guide/)
+
+
+###Job Interview(BitTiger)
+1. [解读IT面试黑科技](https://www.dropbox.com/s/zdt3hkz5pt50g7m/20160416.pdf?dl=0)
+2. [面试升级之路](https://www.dropbox.com/s/lb5e7za9yl59h8y/%E9%9D%A2%E8%AF%95%E5%8D%87%E7%BA%A7%E4%B9%8B%E8%B7%AF.pdf?dl=0) ([一拳超人](http://www.xwei.us/p/about-me.html))
+3. 刷题
+  * [走出刷题的误区](http://zhuanlan.zhihu.com/p/20737437)
+  * [面试知识点梳理](http://zhuanlan.zhihu.com/p/20545626?refer=bittiger)
+[H1B visa Database](http://www.h1bdata.info/)
