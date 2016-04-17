@@ -16,6 +16,7 @@
 5. [What is the difference between categorical, ordinal and interval variables?](http://www.ats.ucla.edu/stat/mult_pkg/whatstat/nominal_ordinal_interval.htm)
 
 6. [kaggle Ensemble Guide](http://mlwave.com/kaggle-ensembling-guide/)
+7. [Tips for data science competitions](http://www.slideshare.net/OwenZhang2/tips-for-data-science-competitions)
 
 
 ###Job Interview(BitTiger)
