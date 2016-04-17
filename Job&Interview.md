@@ -26,4 +26,5 @@
   * [走出刷题的误区](http://zhuanlan.zhihu.com/p/20737437)
   * [面试知识点梳理](http://zhuanlan.zhihu.com/p/20545626?refer=bittiger)
 4. [小土刀的面试刷题笔记](http://wdxtub.com/interview/14520596803958.html)
+5. [Linkedin好友数12000+有什么奇妙的体验？](http://zhuanlan.zhihu.com/p/20643436)
 [H1B visa Database](http://www.h1bdata.info/)
