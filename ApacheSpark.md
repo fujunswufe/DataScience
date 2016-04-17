@@ -1,7 +1,7 @@
 ###Scala###
 1. [A Scala Tutorial for Java Programmers](http://docs.scala-lang.org/tutorials/scala-for-java-programmers.html)
 2. [Scala By Example](http://www.scala-lang.org/docu/files/ScalaByExample.pdf)
-3. **[Functional Programming Principles in Scala](https://www.coursera.org/course/progfun)**: This course cover many details of functional programming and Scala, and has 7 interesting assignments. 
+3. [Functional Programming Principles in Scala](https://www.coursera.org/course/progfun): This course cover many details of functional programming and Scala, and has 7 interesting assignments. 
 
 ###[Spark Summit](https://spark-summit.org/)###
 1. [East 2016](https://spark-summit.org/east-2016/schedule/)
