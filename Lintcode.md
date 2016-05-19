@@ -233,3 +233,17 @@ class Node {
 9. [Combination Sum II](http://www.lintcode.com/en/problem/combination-sum-ii/)
 
 
+### 19/05/2016
+1. balanced binary search tree and heap(priority queue): log(n)
+    1. One tree is *balanced* and BST, so it is *TreeMap*(找比某个点小的一个点，找比某个点大的一个点)
+2. Iterator(迭代器)：Binary search tree iterator(设计遍历器)
+```java
+boolean next() {
+}
+
+boolean hasNext() {
+} 
+
+int value() {
+}
+```
