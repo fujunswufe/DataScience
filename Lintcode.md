@@ -236,7 +236,7 @@ class Node {
 ### 19/05/2016
 1. balanced binary search tree and heap(priority queue): log(n)
     1. One tree is *balanced* and BST, so it is *TreeMap*(找比某个点小的一个点，找比某个点大的一个点)
-2. Iterator(迭代器)：Binary search tree iterator(设计遍历器)
+2. Iterator(迭代器)：Binary search tree iterator(设计遍历器), 用stack 实现in-order遍历
 ```java
 boolean next() {
 }
@@ -247,3 +247,9 @@ boolean hasNext() {
 int value() {
 }
 ```
+3. clone graph: (copy a list with random pointers)
+    1. BFS:通过一个点，找到与其联通的所有点
+    2. 树是一种图，n个点，n-1条边。验证一个图是不是一棵树，通过一个点，把所有的点找到，是不是n个点，n-1条边
+    3. BFS最核心的数据结构：队列。第二个是:HashMap, 去重处理。
+4. 求状态A到状态B的最短变化次数：BFS。
+    1. BFS：通过一个点分层的找到其他所有点
