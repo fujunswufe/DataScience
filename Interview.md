@@ -27,6 +27,9 @@
 3. Linear Algebra (CS229 notes)
 4. **LintCode** (10 questions per day), [刷题攻略参考](http://www.1point3acres.com/bbs/thread-191233-1-1.html)
 
+###Hadoop&Spark###
+1. mainly on [spark](https://github.com/fujunswufe/DataScience/blob/master/Spark.md)
+2. spark on edx
 
 ###Machine Learning###
 1. 参考[Data Scientist找工小记](http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=187357&extra=page%3D1%26filter%3Dtypeid%26typeid%3D35%26sortid%3D192&page=1)
