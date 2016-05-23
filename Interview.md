@@ -25,7 +25,7 @@
 1. [SQL Tutorial on w3Cschools](http://www.w3schools.com/sql/default.asp) (20 hours)
 2. **Probability and statistics** (CS229 Prob notes)
 3. Linear Algebra (CS229 notes)
-4. **LintCode**(10 questions per day)
+4. **LintCode** (10 questions per day), [刷题攻略参考](http://www.1point3acres.com/bbs/thread-191233-1-1.html)
 
 
 ###Machine Learning###
