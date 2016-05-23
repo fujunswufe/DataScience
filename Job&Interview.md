@@ -1,3 +1,11 @@
+###面试准备###
+1. SQL
+2. Machine Learning算法
+3. NLP算法
+4. Coding
+5. 简历知识点
+
+
 ###Springleaf
 
 ######Categorical features
