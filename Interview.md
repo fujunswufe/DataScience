@@ -21,4 +21,20 @@
     2. REST API and Maven
     3. how to do keyword search 
 
+###面试准备
+1. [SQL Tutorial on w3Cschools](http://www.w3schools.com/sql/default.asp) (20 hours)
+2. **Probability and statistics** (CS229 Prob notes)
+3. Linear Algebra (CS229 notes)
+4. **LintCode**(10 questions per day)
+
+
+###Machine Learning###
+1. 参考[Data Scientist找工小记](http://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=187357&extra=page%3D1%26filter%3Dtypeid%26typeid%3D35%26sortid%3D192&page=1)
+2. 掌握regression, classification and clustering 
+3. 精通Logistic Regression and Naive Bayes的区别(what is generative model and discriminant model)
+4. **重点精通** XGBoost and SVM
+5. [summary](https://docs.google.com/document/d/1u9GUP_YXEkQ5VAO01I-foU5W2lAUwdjf4npzKVqtxWY/edit?usp=sharing)
+    1. AUC为什么对于数据不平衡问题不敏感
+    2. 比如什么情况下Random Forests 比Gradient Boosting好，什么情况下不如GBM
+
 
