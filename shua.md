@@ -7,4 +7,6 @@
 1. [Binary Tree Preorder Traversal](http://www.lintcode.com/en/problem/binary-tree-preorder-traversal/#)
 2. [Maximum Depth of Binary Tree](http://www.lintcode.com/en/problem/maximum-depth-of-binary-tree/#)
 3. [Balanced Binary Tree](http://www.lintcode.com/en/problem/balanced-binary-tree/)
-4. 
+4. [Binary Tree Maximum Path Sum](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum/)
+5. [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)
+6. 
