@@ -1,4 +1,9 @@
-###06/25
+###Dynamic Programming
+#####QA
+1. [动态规划十问十答](http://chuansong.me/n/1543583)
+2. [yuanbin Dynamic Programming](http://algorithm.yuanbin.me/zh-hans/dynamic_programming/)
+
+#####Questions
 1. [Palindrome Partitioning II](http://www.lintcode.com/en/problem/palindrome-partitioning-ii/)
 2. [Word Break](http://www.lintcode.com/en/problem/word-break/)
 
