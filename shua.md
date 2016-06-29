@@ -26,7 +26,7 @@
 ####Binary Tree
 2. [Maximum Depth of Binary Tree](http://www.lintcode.com/en/problem/maximum-depth-of-binary-tree/#)
 3. [Balanced Binary Tree](http://www.lintcode.com/en/problem/balanced-binary-tree/)
-4. [Lowest Common Ancestor](http://www.lintcode.com/en/problem/lowest-common-ancestor/#)
+4. [Lowest Common Ancestor](http://www.lintcode.com/en/problem/lowest-common-ancestor/#): **[自底向上](http://algorithm.yuanbin.me/zh-hans/binary_tree/lowest_common_ancestor.html)**
     ```Java
     // children node has pointer to parent node
     public class Solution {
