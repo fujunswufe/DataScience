@@ -27,7 +27,31 @@
 2. [Maximum Depth of Binary Tree](http://www.lintcode.com/en/problem/maximum-depth-of-binary-tree/#)
 3. [Balanced Binary Tree](http://www.lintcode.com/en/problem/balanced-binary-tree/)
 4. [Lowest Common Ancestor](http://www.lintcode.com/en/problem/lowest-common-ancestor/#)
-5. [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+    ```Java
+    public class Solution {
+    private ArrayList<TreeNode> getPath2Root(TreeNode node) {
+        ArrayList<TreeNode> list = new ArrayList<TreeNode>();
+        while (node != null) {
+            list.add(node);
+            node = node.parent;
+        }
+        return list;
+    }
+    public TreeNode lowestCommonAncestor(TreeNode node1, TreeNode node2) {
+        ArrayList<TreeNode> list1 = getPath2Root(node1);
+        ArrayList<TreeNode> list2 = getPath2Root(node2);
+        
+        int i, j;
+        for (i = list1.size() - 1, j = list2.size() - 1; i >= 0 && j >= 0; i--, j--) {
+            if (list1.get(i) != list2.get(j)) {
+                return list1.get(i).parent;
+            }
+        }
+        return list1.get(i+1);
+    }
+}
+    ```
+5. [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), same as above
 4. [Binary Tree Maximum Path Sum](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum/)
 5. [Binary Tree Maximum Path Sum II](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum-ii/#)
 
