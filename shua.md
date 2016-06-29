@@ -13,7 +13,6 @@
     - 节点指针为空后不再入栈
     - 当前节点为空时进行出栈操作，并访问栈顶节点
     - 将当前指针p用其右子节点替代
-
 3. [Binary Tree Postorder Traversal](http://www.lintcode.com/en/problem/binary-tree-postorder-traversal/)
 
 
