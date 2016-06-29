@@ -1,4 +1,4 @@
-###Dynamic Programming
+##Dynamic Programming
 #####QA
 1. [动态规划十问十答](http://chuansong.me/n/1543583)
 2. [yuanbin Dynamic Programming](http://algorithm.yuanbin.me/zh-hans/dynamic_programming/)
@@ -8,7 +8,7 @@
 2. [Word Break](http://www.lintcode.com/en/problem/word-break/)
 
 
-###Binary Tree & Divide Conquer
+##Binary Tree & Divide Conquer
 #####DFS: preorder, inorder, postorder. ([二叉树的非递归遍历](http://www.cnblogs.com/dolphin0520/archive/2011/08/25/2153720.html))
 1. [Binary Tree Preorder Traversal](http://www.lintcode.com/en/problem/binary-tree-preorder-traversal/#)
 2. [Binary Tree Inorder Traversal](http://www.lintcode.com/en/problem/binary-tree-inorder-traversal/#)
