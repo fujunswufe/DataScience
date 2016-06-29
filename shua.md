@@ -21,5 +21,5 @@
 
 8. [Validate Binary Search Tree](http://www.lintcode.com/en/problem/validate-binary-search-tree/#)
   1. [Online Solution](http://algorithm.yuanbin.me/zh-hans/binary_search_tree/validate_binary_search_tree.html)
-
 10. [Inorder Successor in Binary Search Tree](http://www.lintcode.com/en/problem/inorder-successor-in-binary-search-tree/)
+11. [Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/)
