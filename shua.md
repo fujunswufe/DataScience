@@ -14,7 +14,9 @@
     - 当前节点为空时进行出栈操作，并访问栈顶节点
     - 将当前指针p用其右子节点替代
 3. [Binary Tree Postorder Traversal](http://www.lintcode.com/en/problem/binary-tree-postorder-traversal/)
- 
+    * 维护 currentNode, preNode
+    * if (currentNode 没有左右孩子，或者左右孩子已经被访问过)，才能访问这个节点，并且pop
+    * else (push当前节点的左右孩子)
 
 ####Binary Tree
 2. [Maximum Depth of Binary Tree](http://www.lintcode.com/en/problem/maximum-depth-of-binary-tree/#)
