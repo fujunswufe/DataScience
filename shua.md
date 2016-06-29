@@ -15,12 +15,10 @@
     - 将当前指针p用其右子节点替代
 3. [Binary Tree Postorder Traversal](http://www.lintcode.com/en/problem/binary-tree-postorder-traversal/)
 
-
+####Binary Tree
 2. [Maximum Depth of Binary Tree](http://www.lintcode.com/en/problem/maximum-depth-of-binary-tree/#)
 3. [Balanced Binary Tree](http://www.lintcode.com/en/problem/balanced-binary-tree/)
 4. [Lowest Common Ancestor](http://www.lintcode.com/en/problem/lowest-common-ancestor/#)
-
-
 4. [Binary Tree Maximum Path Sum](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum/)
 5. [Binary Tree Maximum Path Sum II](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum-ii/#)
 
