@@ -3,9 +3,17 @@
 2. [Word Break](http://www.lintcode.com/en/problem/word-break/)
 
 
-### 06/28
+###Binary Tree & Divide Conquer
+#####DFS: preorder, inorder, postorder
 1. [Binary Tree Preorder Traversal](http://www.lintcode.com/en/problem/binary-tree-preorder-traversal/#)
 2. [Binary Tree Inorder Traversal](http://www.lintcode.com/en/problem/binary-tree-inorder-traversal/#)
+  * recursion: using one *helper* function
+  * [iterate using one stack](http://algorithm.yuanbin.me/zh-hans/binary_tree/binary_tree_inorder_traversal.html)
+    - 首先需要一直对左子树迭代并将非空节点入栈
+    - 节点指针为空后不再入栈
+    - 当前节点为空时进行出栈操作，并访问栈顶节点
+    - 将当前指针p用其右子节点替代
+
 3. [Binary Tree Postorder Traversal](http://www.lintcode.com/en/problem/binary-tree-postorder-traversal/)
 
 
