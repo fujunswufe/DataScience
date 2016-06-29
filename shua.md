@@ -10,4 +10,4 @@
 4. [Binary Tree Maximum Path Sum](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum/)
 5. [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)
 6. [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-7. []
+7. [Validate Binary Search Tree](http://www.lintcode.com/en/problem/validate-binary-search-tree/#)
