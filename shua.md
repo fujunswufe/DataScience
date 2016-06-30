@@ -65,4 +65,7 @@
 8. [Validate Binary Search Tree](http://www.lintcode.com/en/problem/validate-binary-search-tree/#)
   1. [Online Solution](http://algorithm.yuanbin.me/zh-hans/binary_search_tree/validate_binary_search_tree.html)
 10. [Inorder Successor in Binary Search Tree](http://www.lintcode.com/en/problem/inorder-successor-in-binary-search-tree/)
+    * (1) If right subtree of node is not NULL, then succ lies in right subtree. Do following. Go to right subtree and return the left most node
+    * (2) If right sbtree of node is NULL, then start from root and us search like technique. Do following. Travel down the tree, if a node’s data is greater than root’s data then go right side, otherwise go to left side.
+    * Follow up: a TreeNode has parent pointer
 11. [Binary Search Tree Iterator](http://www.lintcode.com/en/problem/binary-search-tree-iterator/)
