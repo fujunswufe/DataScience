@@ -55,6 +55,8 @@
 5. [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/), same as above
 4. [Binary Tree Maximum Path Sum](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum/)
 5. [Binary Tree Maximum Path Sum II](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum-ii/#)
+6. [Binary Tree Path Sum](http://www.lintcode.com/en/problem/binary-tree-path-sum/)
+7. [Binary Tree Paths](http://www.lintcode.com/en/problem/binary-tree-paths/#)
 
 ####BFS
 6. [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)
