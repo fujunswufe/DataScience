@@ -57,6 +57,9 @@
 5. [Binary Tree Maximum Path Sum II](http://www.lintcode.com/en/problem/binary-tree-maximum-path-sum-ii/#)
 6. [Binary Tree Path Sum](http://www.lintcode.com/en/problem/binary-tree-path-sum/)
 7. [Binary Tree Paths](http://www.lintcode.com/en/problem/binary-tree-paths/#)
+8. [Tweaked Identical Binary Tree](http://www.lintcode.com/en/problem/tweaked-identical-binary-tree/#)
+9. [Identical Binary Tree](http://www.lintcode.com/en/problem/identical-binary-tree/#)
+10. [Symmetric Binary Tree](http://www.lintcode.com/en/problem/symmetric-binary-tree/#)
 
 ####BFS
 6. [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)
