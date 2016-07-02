@@ -60,6 +60,8 @@
 8. [Tweaked Identical Binary Tree](http://www.lintcode.com/en/problem/tweaked-identical-binary-tree/#)
 9. [Identical Binary Tree](http://www.lintcode.com/en/problem/identical-binary-tree/#)
 10. [Symmetric Binary Tree](http://www.lintcode.com/en/problem/symmetric-binary-tree/#)
+    * recursion
+    * traversal
 
 ####BFS
 6. [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)
