@@ -9,6 +9,8 @@
 
 
 ##Binary Tree & Divide Conquer
+1. [some binary tree solutions](http://ihuafan.com/%E7%AE%97%E6%B3%95/lintcode-binary-tree-summary#lintcode-467-complete-binary-tree-%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91)
+
 #####DFS: preorder, inorder, postorder. ([二叉树的非递归遍历](http://www.cnblogs.com/dolphin0520/archive/2011/08/25/2153720.html))
 1. [Binary Tree Preorder Traversal](http://www.lintcode.com/en/problem/binary-tree-preorder-traversal/#)
 2. [Binary Tree Inorder Traversal](http://www.lintcode.com/en/problem/binary-tree-inorder-traversal/#)
@@ -62,6 +64,8 @@
 10. [Symmetric Binary Tree](http://www.lintcode.com/en/problem/symmetric-binary-tree/#)
     * recursion
     * traversal
+11. [Complete Binary Tree](http://www.lintcode.com/en/problem/complete-binary-tree/#)
+    * _full binary tree_ vs. _complete binary tree_
 
 ####BFS
 6. [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)
