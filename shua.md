@@ -65,7 +65,9 @@
     * recursion
     * traversal
 11. [Complete Binary Tree](http://www.lintcode.com/en/problem/complete-binary-tree/#)
-    * _full binary tree_ vs. _complete binary tree_
+    * _full binary tree_: 每个节点都有0个或者2个孩子
+    * _complete binary tree_: 所有的叶子都拥有同的深度，所有的内部节点拥有 2个孩子
+    * BFS: 广度优先搜索，对于一棵树，层层遍历，把每层的节点从左向右依此加入Stack，然后把Stack上层的None弹出，最后检查如果Stack中还有None说明不是Complete Tree
 
 ####BFS
 6. [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)
