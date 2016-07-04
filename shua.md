@@ -70,6 +70,7 @@
     * BFS: 广度优先搜索，对于一棵树，层层遍历，把每层的节点从左向右依此加入Stack，然后把Stack上层的None弹出，最后检查如果Stack中还有None说明不是Complete Tree
 12. [Minimum Depth of Binary Tree](http://www.lintcode.com/en/problem/minimum-depth-of-binary-tree/#)
     * check root.left == null or root.right == null
+13. [Insert Node in a Binary Search Tree](http://www.lintcode.com/en/problem/insert-node-in-a-binary-search-tree/)
 
 ####BFS
 6. [Binary Tree Level Order Traversal](http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/#)
