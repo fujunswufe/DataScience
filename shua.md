@@ -1,3 +1,18 @@
+##Linked List
+#####Tips
+1. dummy node
+2. two pointers: prev and head
+
+
+#####Questions
+1. [Reverse Linked List](http://www.lintcode.com/en/problem/reverse-linked-list/
+    * use prev and head, everytime move prev and head
+    * use a temporary node to store head.next
+2. [Reverse Linked List II](http://www.lintcode.com/en/problem/reverse-linked-list-ii/)
+    * premNode, mNode
+    * nNode, postnNpde
+
+
 ##Dynamic Programming
 #####QA
 1. [动态规划十问十答](http://chuansong.me/n/1543583)
