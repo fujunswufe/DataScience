@@ -24,6 +24,10 @@
     * find middle node
     * recursion on function itself
     * merge two sorted lists
+8. [Reorder List](http://www.lintcode.com/en/problem/reorder-list/#)
+    * find middle node
+    * reverse the second linked list
+    * merge two list: one is first hald and the other is reversed second half
 
 
 ##Dynamic Programming
