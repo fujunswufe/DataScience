@@ -5,7 +5,7 @@
 
 
 #####Questions
-1. [Reverse Linked List](http://www.lintcode.com/en/problem/reverse-linked-list/
+1. [Reverse Linked List](http://www.lintcode.com/en/problem/reverse-linked-list/)
     * use prev and head, everytime move prev and head
     * use a temporary node to store head.next
 2. [Reverse Linked List II](http://www.lintcode.com/en/problem/reverse-linked-list-ii/)
