@@ -13,6 +13,8 @@
     * nNode, postnNpde
 3. [Remove Duplicates from Sorted List](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list/)
 4. [Remove Duplicates from Sorted List II](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list-ii/#)
+    * use a dummy node
+5. []
 
 
 ##Dynamic Programming
