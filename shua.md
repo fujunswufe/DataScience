@@ -14,7 +14,16 @@
 3. [Remove Duplicates from Sorted List](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list/)
 4. [Remove Duplicates from Sorted List II](http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list-ii/#)
     * use a dummy node
-5. []
+5. [Middle of Linked List](http://www.lintcode.com/en/problem/middle-of-linked-list/#)
+    * two pointers: slow and fast
+    * Be careful of _NullPointerExeception_
+6. [Merge Two Sorted Lists](http://www.lintcode.com/en/problem/merge-two-sorted-lists/#)
+    * dummy node
+    * link rest of l1 or l2
+7. [Sort List](http://www.lintcode.com/en/problem/sort-list/)
+    * find middle node
+    * recursion on function itself
+    * merge two sorted lists
 
 
 ##Dynamic Programming
