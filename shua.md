@@ -34,6 +34,9 @@
     * slow and fast pointer 
 11. [Linked List Cycle II](http://www.lintcode.com/en/problem/linked-list-cycle-ii/#)
     * [tutorial on csdn](http://blog.csdn.net/kenden23/article/details/13871699)
+12. [Rotate List](http://www.lintcode.com/en/problem/rotate-list/#)
+    * findLength
+    * four ListNode: previous node of new head(the node rotate first), new head, tail, original head
 
 
 ##Dynamic Programming
