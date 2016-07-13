@@ -29,6 +29,11 @@
     * reverse the second linked list
     * merge two list: one is first hald and the other is reversed second half
 9. [Partition List](http://www.lintcode.com/en/problem/partition-list/#)
+    * two dummy nodes
+10. [Linked List Cycle](http://www.lintcode.com/en/problem/linked-list-cycle/#)
+    * slow and fast pointer 
+11. [Linked List Cycle II](http://www.lintcode.com/en/problem/linked-list-cycle-ii/#)
+    * [tutorial on csdn](http://blog.csdn.net/kenden23/article/details/13871699)
 
 
 ##Dynamic Programming
