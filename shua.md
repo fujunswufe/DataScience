@@ -37,6 +37,10 @@
 12. [Rotate List](http://www.lintcode.com/en/problem/rotate-list/#)
     * findLength
     * four ListNode: previous node of new head(the node rotate first), new head, tail, original head
+14. [Merge k Sorted Lists](http://www.lintcode.com/en/problem/merge-k-sorted-lists/#)
+    * __Prioirty Queue__
+    * _Divide and Conquer_
+    * _merge two by two_
 
 
 ##Dynamic Programming
