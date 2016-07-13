@@ -28,6 +28,7 @@
     * find middle node
     * reverse the second linked list
     * merge two list: one is first hald and the other is reversed second half
+9. [Partition List](http://www.lintcode.com/en/problem/partition-list/#)
 
 
 ##Dynamic Programming
