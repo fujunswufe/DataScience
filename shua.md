@@ -38,7 +38,11 @@
     * findLength
     * four ListNode: previous node of new head(the node rotate first), new head, tail, original head
 14. [Merge k Sorted Lists](http://www.lintcode.com/en/problem/merge-k-sorted-lists/#)
-    * __Prioirty Queue__
+    * __Heap(Priority Queue)__
+        - [Comparable vs. Comparator in Java](http://www.programcreek.com/2011/12/examples-to-demonstrate-comparable-vs-comparator-in-java/)
+        - rewrite comparator, minHeap
+        - size of heap is k
+        - time complexity: O(Nlogk). heap插入删除的时间复杂度是O(logk), N:所有node的个数
     * _Divide and Conquer_
     * _merge two by two_
 
