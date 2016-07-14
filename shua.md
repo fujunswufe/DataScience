@@ -50,7 +50,9 @@
 15. [Copy List with Random Pointer](http://www.lintcode.com/en/problem/copy-list-with-random-pointer/#)
     * iterate once, using hashmap
     * O(1) space, 1 -> 1' -> 2 -> 2' -> 3 -> 3' -> null, head.next.random = head.random.next
-
+16. [Convert Sorted List to Balanced BST](http://www.lintcode.com/en/problem/convert-sorted-list-to-balanced-bst/#)
+    * using one class variable
+    * recursion
 
 ##Dynamic Programming
 #####QA
