@@ -44,7 +44,12 @@
         - size of heap is k
         - time complexity: O(Nlogk). heap插入删除的时间复杂度是O(logk), N:所有node的个数
     * _Divide and Conquer_
-    * _merge two by two_
+        - from top to bottom
+        - the bottom is about *merging two lists*
+    * _merge two by two
+15. [Copy List with Random Pointer](http://www.lintcode.com/en/problem/copy-list-with-random-pointer/#)
+    * iterate once, using hashmap
+    * O(1) space, 1 -> 1' -> 2 -> 2' -> 3 -> 3' -> null, head.next.random = head.random.next
 
 
 ##Dynamic Programming
