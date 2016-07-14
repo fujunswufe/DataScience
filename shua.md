@@ -53,6 +53,7 @@
 16. [Convert Sorted List to Balanced BST](http://www.lintcode.com/en/problem/convert-sorted-list-to-balanced-bst/#)
     * using one class variable
     * recursion
+    * 把current开头的，长度为size的点，变成BST，并且顺便把current这个点，挪到size + 1的那个点
 
 ##Dynamic Programming
 #####QA
