@@ -1,3 +1,15 @@
+
+###07/19
+1. 
+
+
+
+
+
+
+
+
+
 ##Linked List
 #####Tips
 1. dummy node
