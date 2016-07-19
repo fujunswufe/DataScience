@@ -1,6 +1,12 @@
 
 ###07/19
-1. 
+1. [Merge Sorted Array](http://www.lintcode.com/en/problem/merge-sorted-array/#)
+2. [Merge Two Sorted Arrays](http://www.lintcode.com/en/problem/merge-two-sorted-arrays/)
+3. __[Median](http://www.lintcode.com/en/problem/median/#)__
+   * [instructions](http://algorithm.yuanbin.me/zh-hans/integer_array/median.html)
+   * [Quick Sort](http://algorithm.yuanbin.me/zh-hans/basics_sorting/quick_sort.html)
+4. [Median of two Sorted Arrays](http://www.lintcode.com/en/problem/median-of-two-sorted-arrays/#)
+   * 二分法，每次扔掉k的一半
 
 
 
