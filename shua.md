@@ -5,8 +5,11 @@
 3. __[Median](http://www.lintcode.com/en/problem/median/#)__
    * [instructions](http://algorithm.yuanbin.me/zh-hans/integer_array/median.html)
    * [Quick Sort](http://algorithm.yuanbin.me/zh-hans/basics_sorting/quick_sort.html)
-4. [Median of two Sorted Arrays](http://www.lintcode.com/en/problem/median-of-two-sorted-arrays/#)
+4. [Kth Largest Element](http://www.lintcode.com/en/problem/kth-largest-element/#)
+   * quick select based on quick sort
+5. [Median of two Sorted Arrays](http://www.lintcode.com/en/problem/median-of-two-sorted-arrays/#)
    * 二分法，每次扔掉k的一半
+
 
 
 
