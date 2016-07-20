@@ -1,5 +1,9 @@
 
 ###07/19
+1. [Palindrome Linked List](http://www.lintcode.com/en/problem/palindrome-linked-list/)
+2. [Convert Binary Search Tree to Doubly Linked List](http://www.lintcode.com/en/problem/convert-binary-search-tree-to-doubly-linked-list/)
+3. [Reverse Nodes in k-Group](http://www.lintcode.com/en/problem/reverse-nodes-in-k-group/)
+
 1. [Merge Sorted Array](http://www.lintcode.com/en/problem/merge-sorted-array/#)
 2. [Merge Two Sorted Arrays](http://www.lintcode.com/en/problem/merge-two-sorted-arrays/)
 3. __[Median](http://www.lintcode.com/en/problem/median/#)__
