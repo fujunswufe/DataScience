@@ -13,8 +13,13 @@
 5. [Median of two Sorted Arrays](http://www.lintcode.com/en/problem/median-of-two-sorted-arrays/#)
    * 二分法，每次扔掉k的一半
 
-
-
+###07/20
+1. [Maximum Subarray](http://www.lintcode.com/en/problem/maximum-subarray/#)
+    * [globalMax and localMax解法](http://hehejun.blogspot.com/2015/01/leetcodemaximum-subarray.html)
+2. [Maximum Subarray II](http://www.lintcode.com/en/problem/maximum-subarray-ii/)
+    * [dp解法](http://hehejun.blogspot.com/2015/01/lintcodemaximum-subarray-ii.html)
+3. [Maximum Subarray III](http://www.lintcode.com/en/problem/maximum-subarray-iii/#)
+    * [区间型动态规划](http://www.jiuzhang.com/solutions/maximum-subarray-iii/)
 
 
 
