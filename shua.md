@@ -31,6 +31,10 @@
 1. [Best Time to Buy and Sell Stock IV](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iv/#)
     1. 最多允许 k 次交易，由于一次增加收益的交易至少需要两天，故当 k >= n/2时，此题退化为卖股票的第二道题，即允许任意多次交易
     2. 当 k < n/2 时，使用动规来求解
+2. [Minimum Subarray](http://www.lintcode.com/en/problem/minimum-subarray/#)
+    * localMin, GlobalMin (和Maximum Subarray同理)
+3. [Maximum Subarray Difference](http://www.lintcode.com/en/problem/maximum-subarray-difference/)
+    * Math.max(Math.abs(leftMax - rightMin), Math.asb(rightMax - leftMin))
 
 
 
