@@ -20,6 +20,11 @@
     * [dp解法](http://hehejun.blogspot.com/2015/01/lintcodemaximum-subarray-ii.html)
 3. [Maximum Subarray III](http://www.lintcode.com/en/problem/maximum-subarray-iii/#)
     * [区间型动态规划](http://www.jiuzhang.com/solutions/maximum-subarray-iii/)
+4. [Best Time to Buy and Sell Stock](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock/#)
+    * greedy, prices[index] - min
+5. [Best Time to Buy and Sell Stock II](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-ii/#)
+    * greedy
+6. []
 
 
 
