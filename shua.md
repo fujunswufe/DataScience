@@ -27,7 +27,7 @@
 6. [Best Time to Buy and Sell Stock III](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iii/#)
     * two for loop, dp
 
-###07/20
+###07/21
 1. [Best Time to Buy and Sell Stock IV](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iv/#)
     1. 最多允许 k 次交易，由于一次增加收益的交易至少需要两天，故当 k >= n/2时，此题退化为卖股票的第二道题，即允许任意多次交易
     2. 当 k < n/2 时，使用动规来求解
@@ -35,6 +35,12 @@
     * localMin, GlobalMin (和Maximum Subarray同理)
 3. [Maximum Subarray Difference](http://www.lintcode.com/en/problem/maximum-subarray-difference/)
     * Math.max(Math.abs(leftMax - rightMin), Math.asb(rightMax - leftMin))
+4. [Subarray Sum](http://www.lintcode.com/en/problem/subarray-sum/)
+    * HashMap
+    * key = prefix Sum, value = index
+    * i ~ j 区间和为0，条件是 preSum[j] - preSum[i - 1] == 0
+5. [Subarray Sum Closest](http://www.lintcode.com/en/problem/subarray-sum-closest/#)
+    * 排序前缀和
 
 
 
