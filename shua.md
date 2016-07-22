@@ -40,8 +40,12 @@
     * key = prefix Sum, value = index
     * i ~ j 区间和为0，条件是 preSum[j] - preSum[i - 1] == 0
 5. [Subarray Sum Closest](http://www.lintcode.com/en/problem/subarray-sum-closest/#)
-    * 排序前缀和
-
+    * 排序前缀和,时间复杂度 O(nlogn)
+    * 找临近的前缀和之差最接近0的，index
+6. [Two Sum](http://www.lintcode.com/en/problem/two-sum/)
+    * HashMap
+    * key = nums[i], value = index
+    * 查找 map.containsKey(target - nums[i])
 
 
 
