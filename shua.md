@@ -1,31 +1,9 @@
+###07/24
+1. [3Sum](http://www.lintcode.com/en/problem/3sum/#)
+    * 先排序
+    * 然后for循环，while循环双指针
+    * 注意去重
 
-###07/19
-1. [Palindrome Linked List](http://www.lintcode.com/en/problem/palindrome-linked-list/)
-2. [Convert Binary Search Tree to Doubly Linked List](http://www.lintcode.com/en/problem/convert-binary-search-tree-to-doubly-linked-list/)
-3. [Reverse Nodes in k-Group](http://www.lintcode.com/en/problem/reverse-nodes-in-k-group/)
-1. [Merge Sorted Array](http://www.lintcode.com/en/problem/merge-sorted-array/#)
-2. [Merge Two Sorted Arrays](http://www.lintcode.com/en/problem/merge-two-sorted-arrays/)
-3. __[Median](http://www.lintcode.com/en/problem/median/#)__
-   * [instructions](http://algorithm.yuanbin.me/zh-hans/integer_array/median.html)
-   * [Quick Sort](http://algorithm.yuanbin.me/zh-hans/basics_sorting/quick_sort.html)
-4. [Kth Largest Element](http://www.lintcode.com/en/problem/kth-largest-element/#)
-   * quick select based on quick sort
-5. [Median of two Sorted Arrays](http://www.lintcode.com/en/problem/median-of-two-sorted-arrays/#)
-   * 二分法，每次扔掉k的一半
-
-###07/20
-1. [Maximum Subarray](http://www.lintcode.com/en/problem/maximum-subarray/#)
-    * [globalMax and localMax解法](http://hehejun.blogspot.com/2015/01/leetcodemaximum-subarray.html)
-2. [Maximum Subarray II](http://www.lintcode.com/en/problem/maximum-subarray-ii/)
-    * [dp解法](http://hehejun.blogspot.com/2015/01/lintcodemaximum-subarray-ii.html)
-3. [Maximum Subarray III](http://www.lintcode.com/en/problem/maximum-subarray-iii/#)
-    * [区间型动态规划](http://www.jiuzhang.com/solutions/maximum-subarray-iii/)
-4. [Best Time to Buy and Sell Stock](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock/#)
-    * greedy, prices[index] - min
-5. [Best Time to Buy and Sell Stock II](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-ii/#)
-    * greedy
-6. [Best Time to Buy and Sell Stock III](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iii/#)
-    * two for loop, dp
 
 ###07/21
 1. [Best Time to Buy and Sell Stock IV](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iv/#)
@@ -48,8 +26,33 @@
     * 查找 map.containsKey(target - nums[i])
 
 
+###07/20
+1. [Maximum Subarray](http://www.lintcode.com/en/problem/maximum-subarray/#)
+    * [globalMax and localMax解法](http://hehejun.blogspot.com/2015/01/leetcodemaximum-subarray.html)
+2. [Maximum Subarray II](http://www.lintcode.com/en/problem/maximum-subarray-ii/)
+    * [dp解法](http://hehejun.blogspot.com/2015/01/lintcodemaximum-subarray-ii.html)
+3. [Maximum Subarray III](http://www.lintcode.com/en/problem/maximum-subarray-iii/#)
+    * [区间型动态规划](http://www.jiuzhang.com/solutions/maximum-subarray-iii/)
+4. [Best Time to Buy and Sell Stock](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock/#)
+    * greedy, prices[index] - min
+5. [Best Time to Buy and Sell Stock II](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-ii/#)
+    * greedy
+6. [Best Time to Buy and Sell Stock III](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iii/#)
+    * two for loop, dp
 
-
+###07/19
+1. [Palindrome Linked List](http://www.lintcode.com/en/problem/palindrome-linked-list/)
+2. [Convert Binary Search Tree to Doubly Linked List](http://www.lintcode.com/en/problem/convert-binary-search-tree-to-doubly-linked-list/)
+3. [Reverse Nodes in k-Group](http://www.lintcode.com/en/problem/reverse-nodes-in-k-group/)
+1. [Merge Sorted Array](http://www.lintcode.com/en/problem/merge-sorted-array/#)
+2. [Merge Two Sorted Arrays](http://www.lintcode.com/en/problem/merge-two-sorted-arrays/)
+3. __[Median](http://www.lintcode.com/en/problem/median/#)__
+   * [instructions](http://algorithm.yuanbin.me/zh-hans/integer_array/median.html)
+   * [Quick Sort](http://algorithm.yuanbin.me/zh-hans/basics_sorting/quick_sort.html)
+4. [Kth Largest Element](http://www.lintcode.com/en/problem/kth-largest-element/#)
+   * quick select based on quick sort
+5. [Median of two Sorted Arrays](http://www.lintcode.com/en/problem/median-of-two-sorted-arrays/#)
+   * 二分法，每次扔掉k的一半
 
 
 ##Linked List
