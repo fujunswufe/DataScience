@@ -1,9 +1,13 @@
 ###07/24
+1. [Two Sum Closest](http://www.lintcode.com/en/problem/two-sum-closest/#)
+    * two pointers, left and right
 1. [3Sum](http://www.lintcode.com/en/problem/3sum/#)
     * 先排序
     * 然后for循环，while循环双指针
     * 注意去重
-
+2. [3Sum Closest](http://www.lintcode.com/en/problem/3sum-closest/#)
+    * 解法同上，没有去重操作
+    * 注意双指针的走法。 sum < target, sum >= target
 
 ###07/21
 1. [Best Time to Buy and Sell Stock IV](http://www.lintcode.com/en/problem/best-time-to-buy-and-sell-stock-iv/#)
