@@ -1,3 +1,9 @@
+###07/25
+1. [4Sum](http://www.lintcode.com/en/problem/4sum/#)
+    * [HashMap 解法](http://www.cnblogs.com/TenosDoIt/p/3649607.html):注意去重
+    * Two pointers解法，三次loop
+
+
 ###07/24
 1. [Two Sum Closest](http://www.lintcode.com/en/problem/two-sum-closest/#)
     * two pointers, left and right
