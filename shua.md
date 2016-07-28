@@ -1,3 +1,10 @@
+###07/27
+1. [Min Stack](http://www.lintcode.com/en/problem/min-stack/)
+2. [Implement Queue by Two Stacks](http://www.lintcode.com/en/problem/implement-queue-by-two-stacks/)
+3. [Largest Rectangle in Histogram](http://www.lintcode.com/en/problem/largest-rectangle-in-histogram/)
+4. [Max Tree](http://www.lintcode.com/en/problem/max-tree/)
+
+
 ###07/26
 1. [Partition Array](http://www.lintcode.com/en/problem/partition-array/)
 2. [Sort Letters by Case](http://www.lintcode.com/en/problem/sort-letters-by-case/)
